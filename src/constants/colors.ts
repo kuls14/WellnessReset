@@ -1,0 +1,61 @@
+/**
+ * Color Palette - Only essential colors
+ */
+
+export const COLORS = {
+  TEXT_PRIMARY: '#0F172A',
+  TEXT_SECONDARY: '#0B1B36',
+  TEXT_TERTIARY: '#475467',
+  TEXT_INVERSE: '#FFFFFF',
+  TEXT_ERROR: '#DC2626',
+  TEXT_SUCCESS: '#0EA5E9',
+  BG_WHITE: '#FFFFFF',
+  BG_LIGHT: '#F3F4F6',
+  BG_LIGHTER: '#E5E7EB',
+  OVERLAY_DARK: 'rgba(0,0,0,0.4)',
+} as const;
+
+export const CONFLICT = {
+  START: 'rgba(255, 241, 242, 0.9)',
+  END: 'rgba(254, 226, 226, 1)',
+  BORDER: '#F87171',
+} as const;
+
+export const BANNER = {
+  SUCCESS_BG: '#E0F2FE',
+  SUCCESS_BORDER: '#38BDF8',
+  SUCCESS_TEXT: '#0EA5E9',
+  ERROR_BG: '#FEE2E2',
+  ERROR_BORDER: '#F87171',
+  ERROR_TEXT: '#DC2626',
+} as const;
+
+export const MOOD_COLORS = {
+  CALM: {
+    GRADIENT_START: '#5CC6FF',
+    GRADIENT_END: '#1E3A8A',
+    CARD_GRADIENT_START: '#D6F1FF',
+    CARD_GRADIENT_END: '#8CB8FF',
+    PRIMARY: '#1E3A8A',
+    ACCENT: '#7AD3FF',
+    SHADOW: 'rgba(30,58,138,0.45)',
+  },
+  STRESSED: {
+    GRADIENT_START: '#FF5F6D',
+    GRADIENT_END: '#C81E1E',
+    CARD_GRADIENT_START: '#FFB3B8',
+    CARD_GRADIENT_END: '#FF6B6B',
+    PRIMARY: '#B91C1C',
+    ACCENT: '#FF9A62',
+    SHADOW: 'rgba(185,28,28,0.55)',
+  },
+  ENERGETIC: {
+    GRADIENT_START: '#FFB347',
+    GRADIENT_END: '#FF512F',
+    CARD_GRADIENT_START: '#FFE29F',
+    CARD_GRADIENT_END: '#FFA99F',
+    PRIMARY: '#F97316',
+    ACCENT: '#FFD166',
+    SHADOW: 'rgba(249,115,22,0.52)',
+  },
+} as const;
